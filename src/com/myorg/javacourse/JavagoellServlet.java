@@ -10,7 +10,7 @@ public class JavagoellServlet extends HttpServlet {
 		int num3=7;
 		int result=(num1+num2)*num3;
 		resp.setContentType("text/html");
-		String resultStr= new String ("<h1>Result of ("+num1+"+"+num2+")*"+num3+"="+result+"</h1>");
+		String resultStr= new String ("<h1 style=color:pink>Result of ("+num1+"+"+num2+")*"+num3+"="+result+"</h1>");
 		resp.getWriter().println(resultStr);
 	}
 }
