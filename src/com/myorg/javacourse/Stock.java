@@ -8,6 +8,13 @@ public class Stock {
 	private float ask;
 	private float bid;
 	private Date date;
+	private int recommendation;
+	private int stockQuantity;
+	static final int BUY=0;
+	static final int SEll=1;
+	static final int REMOVE=2;
+	static final int HOLD=3;
+	
 	
 	
 	public String getSymbol() {
